@@ -9,3 +9,13 @@ I intend this repository to be the software programming equivalent of a grimoire
 From my first day in front of a computer in 1979 (or thereabouts), I've felt computers (and particularly programming) were magic and I have always wanted to share that magic with others.
 
 "Spells and incantations; for those with the talent to cast them."
+
+### miscellany
+
+`configit.sh` looks like this:
+```bash
+#!/bin/bash
+
+git config --global user.email "yourEmail@mail.com"
+git config --global user.name "yourGitUserName"
+```
