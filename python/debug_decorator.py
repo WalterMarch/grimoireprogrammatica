@@ -3,13 +3,19 @@ A decorator function to take the place of the print statements.
 
 source: 
 https://realpython.com/inner-functions-what-are-they-good-for/#adding-behavior-with-inner-functions-decorators
+
+extended by:
+https://github.com/WalterMarch
 """
 
 def debug(func):
     def _debug(*args, **kwargs):
         result = func(*args, **kwargs)
+        arg_list = list(map(lambda x : f"{x} ({type(x)})", args))
+        kwarg_list = list(map(lambda x : f"{x} ({type(x)})", kwargs))
+        result_output = f"{result} ({type(result)})"
         print(
-            f"{func.__name__}(args: {args}; kwargs: {kwargs}) -> {result}"
+            f"{func.__name__}(args: {arg_list}; kwargs: {kwarg_list}) -> {result_output}"
         )
         return result
     return _debug
