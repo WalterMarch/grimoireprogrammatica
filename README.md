@@ -19,5 +19,5 @@ From my first day in front of a computer in 1979 (or thereabouts), I've felt com
 git config --global user.email "yourEmail@mail.com"
 git config --global user.name "yourGitUserName"
 
-git config --global --add safe.directory /workspaces/grimoireprogrammatica
+git config --global --add safe.directory $1
 ```

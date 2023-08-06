@@ -4,7 +4,7 @@
     "mounts": [
 		"source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/home/vscode/.ssh,type=bind"
 	],
-	"postCreateCommand": "/workspaces/grimoireprogrammatica/.devcontainer/post-create.sh",
+	"postCreateCommand": "${containerWorkspaceFolder}/.devcontainer/post-create.sh ${containerWorkspaceFolder}",	
 	"customizations": {
 		"vscode": {
 			"settings" : {"editor.rulers": [72, 79]},
@@ -16,7 +16,8 @@
 				"GitHub.copilot",
 				"ms-python.python",
 				"ms-python.pylint",
-				"ms-python.black-formatter"
+				"ms-python.black-formatter",
+				"DavidAnson.vscode-markdownlint"
 			]
 		}
 	}
