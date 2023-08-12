@@ -1,6 +1,9 @@
 {
 	"name": "grimoireprogrammatica",
-    "image": "mcr.microsoft.com/devcontainers/base:alpine",
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+	"features": {
+		"ghcr.io/devcontainers/features/java:1": {}
+	},
     "mounts": [
 		"source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/home/vscode/.ssh,type=bind"
 	],
@@ -15,6 +18,7 @@
 				"ms-azuretools.vscode-docker",
 				"GitHub.copilot",
 				"ms-python.python",
+				"ms-toolsai.jupyter", 
 				"ms-python.pylint",
 				"ms-python.black-formatter",
 				"DavidAnson.vscode-markdownlint"
