@@ -1,5 +1,5 @@
 # Grimoire Programmatica
-## a textbook of (programming) magic 
+## a book of (programming) magic 
 
 According to Wikipedia a [grimoire](https://en.wikipedia.org/wiki/Grimoire) is:
 > a textbook of magic, typically including instructions on how to create magical objects ... how to perform magical spells, charms, and divination, and how to summon or invoke supernatural entities
