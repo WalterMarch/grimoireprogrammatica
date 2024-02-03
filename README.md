@@ -1,3 +1,5 @@
+# NOTICE: moved to https://github.com/thebluebookwyrm/grimoireprogrammatica
+
 # Grimoire Programmatica
 ## a book of (programming) magic 
 
