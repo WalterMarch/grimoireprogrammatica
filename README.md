@@ -1,7 +1,6 @@
-# NOTICE: moved to https://github.com/thebluebookwyrm/grimoireprogrammatica
-
 # Grimoire Programmatica
-## a book of (programming) magic 
+
+## a book of (programming) magic
 
 According to Wikipedia a [grimoire](https://en.wikipedia.org/wiki/Grimoire) is:
 > a textbook of magic, typically including instructions on how to create magical objects ... how to perform magical spells, charms, and divination, and how to summon or invoke supernatural entities
@@ -15,6 +14,7 @@ From my first day in front of a computer in 1979 (or thereabouts), I've felt com
 ### miscellany
 
 `configit.sh` looks like this:
+
 ```bash
 #!/bin/bash
 
