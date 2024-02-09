@@ -5,6 +5,7 @@ source $1/.devcontainer/configit.sh $1
 # Python and Pip
 sudo apt-get update
 sudo apt-get install -y python3-pip
+sudo apt-get install -y tree
 pip3 install -U --user --upgrade pip
 pip3 install mypy -U --user
 
