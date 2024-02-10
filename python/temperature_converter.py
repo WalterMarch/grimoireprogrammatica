@@ -1,36 +1,42 @@
-# As suggested by Challenge 6.3: Convert Temperatures in
-# Python Basics A Practical Introduction to Python 3
-# https://realpython.com/products/python-basics-book/
+"""converts temperatures between Celsius and Fahrenheit
+
+As suggested by Challenge 6.3: Convert Temperatures in
+Python Basics A Practical Introduction to Python 3
+https://realpython.com/products/python-basics-book/"""
 
 
 def convert_cel_to_far(C: float) -> float:
+    """Converts Celsius to Fahrenheit"""
     return C * 9 / 5 + 32
 
 
 def convert_far_to_cel(F: float) -> float:
+    """Converts Fahrenheit to Celsius"""
     return (F - 32) * 5 / 9
 
 
 def prompt_for_convert_from() -> str:
-    convert_from = ""
-    while convert_from not in ("C", "F"):
-        convert_from = input(
+    """Prompts user for input and returns C or F"""
+    convert_frm = ""
+    while convert_frm not in ("C", "F"):
+        convert_frm = input(
             "Please enter C for Celsius to Fahrenheit or "
-            + "F for Fahrentheit to Celsius: "
+            + "F for Fahrenheit to Celsius: "
         ).upper()
-    return convert_from
+    return convert_frm
 
 
-def prompt_for_temp(convert_from: str) -> float:
+def prompt_for_temp(convert_frm: str) -> float:
+    """Prompts user for temperature to convert"""
     valid_input = False
     input_as_float = 0.0
     while not valid_input:
-        prompt = input(f"Please enter degrees {convert_from} to convert: ")
+        prompt = input(f"Please enter degrees {convert_frm} to convert: ")
 
         try:
             input_as_float = float(prompt)
             valid_input = True
-        except:
+        except ValueError:
             valid_input = False
 
     return input_as_float
