@@ -18,3 +18,4 @@ pip3 install ipykernel -U --user --force-reinstall
 # mySQL
 sudo apt-get install -y mysql-server
 sudo /etc/init.d/mysql start
+source $1/mysql/sakila-db/setup_sakila.sh
