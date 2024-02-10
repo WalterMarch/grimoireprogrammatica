@@ -2,13 +2,20 @@
 
 source $1/.devcontainer/configit.sh $1
 
-# Python and Pip
+# Pip
 sudo apt-get update
 sudo apt-get install -y python3-pip
-sudo apt-get install -y tree
 pip3 install -U --user --upgrade pip
 pip3 install mypy -U --user
+
+# Linux utils
+sudo apt-get install -y tree
 
 # Jupyter and kernels
 pip3 install jupyter -U --user --force-reinstall 
 pip3 install ipykernel -U --user --force-reinstall
+
+# mySQL
+sudo apt-get install -y mysql-server
+sudo /etc/init.d/mysql start
+source $1/mysql/sakila-db/setup_sakila.sh

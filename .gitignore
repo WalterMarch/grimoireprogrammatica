@@ -1,0 +1,3 @@
+configit.sh
+.mypy_cache
+powershell/pip_lists/*.txt

@@ -3,6 +3,8 @@
         "devcontainer",
         "devcontainers",
         "Grimoire",
-        "Programmatica"
+        "mypy",
+        "Programmatica",
+        "Pylint"
     ]
 }

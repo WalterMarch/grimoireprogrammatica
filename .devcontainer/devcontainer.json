@@ -1,14 +1,28 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
 {
 	"name": "grimoireprogrammatica",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
 		"ghcr.io/devcontainers/features/java:1": {},
-		"ghcr.io/devcontainers/features/github-cli:1": {"version": "latest"}
+		"ghcr.io/devcontainers/features/github-cli:1": {},
+		"ghcr.io/devcontainers/features/python:1": {}, 
+		"ghcr.io/devcontainers/features/powershell:1": {}
 	},
+	// https://stackoverflow.com/a/67803226/21655737
     	"mounts": [
 		"source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/home/vscode/.ssh,type=bind"
 	],
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "${containerWorkspaceFolder}/.devcontainer/post-create.sh ${containerWorkspaceFolder}",	
+
+	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
 			"settings" : {"editor.rulers": [72, 79]},
@@ -22,7 +36,11 @@
 				"ms-toolsai.jupyter", 
 				"ms-python.pylint",
 				"ms-python.black-formatter",
-				"DavidAnson.vscode-markdownlint"
+				"DavidAnson.vscode-markdownlint",				
+				"analytic-signal.preview-pdf",
+				"ms-vscode.PowerShell",
+				"mtxr.sqltools",
+				"mtxr.sqltools-driver-mysql"
 			]
 		}
 	}
