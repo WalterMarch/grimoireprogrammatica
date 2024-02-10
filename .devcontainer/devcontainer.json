@@ -8,7 +8,8 @@
 	"features": {
 		"ghcr.io/devcontainers/features/java:1": {},
 		"ghcr.io/devcontainers/features/github-cli:1": {},
-		"ghcr.io/devcontainers/features/python:1": {}
+		"ghcr.io/devcontainers/features/python:1": {}, 
+		"ghcr.io/devcontainers/features/powershell:1": {}
 	},
 	// https://stackoverflow.com/a/67803226/21655737
     	"mounts": [
@@ -35,7 +36,9 @@
 				"ms-toolsai.jupyter", 
 				"ms-python.pylint",
 				"ms-python.black-formatter",
-				"DavidAnson.vscode-markdownlint"
+				"DavidAnson.vscode-markdownlint",				
+				"analytic-signal.preview-pdf",
+				"ms-vscode.PowerShell"
 			]
 		}
 	}
