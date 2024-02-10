@@ -14,3 +14,7 @@ sudo apt-get install -y tree
 # Jupyter and kernels
 pip3 install jupyter -U --user --force-reinstall 
 pip3 install ipykernel -U --user --force-reinstall
+
+# mySQL
+sudo apt-get install -y mysql-server
+sudo /etc/init.d/mysql start

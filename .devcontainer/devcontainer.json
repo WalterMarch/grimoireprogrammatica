@@ -38,7 +38,9 @@
 				"ms-python.black-formatter",
 				"DavidAnson.vscode-markdownlint",				
 				"analytic-signal.preview-pdf",
-				"ms-vscode.PowerShell"
+				"ms-vscode.PowerShell",
+				"mtxr.sqltools",
+				"mtxr.sqltools-driver-mysql"
 			]
 		}
 	}
