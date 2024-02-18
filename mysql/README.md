@@ -1,20 +1,20 @@
 # Using MySQL in this VS Code Devcontainer
 
-## Starting and logging in
+## Logging in
 
-At this point, you will need to run the following command to start the server:
-
-```bash
-sudo mysqld&
-```
-
-and the following to actually log on to the server:
+Use the following to log on to the server:
 
 ```bash
 sudo mysql
 ```
 
-I hope to fix this at some point.
+## Starting the server
+
+If the above command fails, you may need to run the following command to start the server:
+
+```bash
+sudo mysqld&
+```
 
 ## Installing the Sakila data
 
