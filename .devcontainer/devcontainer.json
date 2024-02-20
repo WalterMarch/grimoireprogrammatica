@@ -39,8 +39,7 @@
 				"analytic-signal.preview-pdf",
 				"ms-vscode.PowerShell",
 				"mtxr.sqltools",
-				"mtxr.sqltools-driver-mysql",
-				"vscjava.vscode-java-pack"
+				"mtxr.sqltools-driver-mysql"
 			]
 		}
 	}

@@ -6,9 +6,6 @@ source $1/.devcontainer/configit.sh $1
 sudo apt-get update
 sudo apt-get install -y tree
 
-# Java 
-sudo apt install -y default-jdk
-
 # Pip and Python-related
 sudo apt-get install -y python3-pip
 pip3 install -U --user --upgrade pip
