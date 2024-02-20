@@ -13,7 +13,8 @@ From my first day in front of a computer in 1979 (or thereabouts), I've felt com
 
 ## Related Grimoires
 
-[javaGrimoireWM](https://github.com/WalterMarch/javaGrimoireWM)
+* [javaGrimoireWM](https://github.com/WalterMarch/javaGrimoireWM)
+* [pythonGrimoireWM](https://github.com/WalterMarch/pythonGrimoireWM)
 
 ## miscellany
 
