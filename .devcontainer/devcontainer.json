@@ -31,16 +31,11 @@
 				"streetsidesoftware.code-spell-checker",
 				"ms-azuretools.vscode-docker",
 				"GitHub.copilot",
-				"ms-python.python",
-				"ms-toolsai.jupyter",
-				"ms-python.pylint",
-				"ms-python.black-formatter",
 				"DavidAnson.vscode-markdownlint",
 				"analytic-signal.preview-pdf",
 				"ms-vscode.PowerShell",
 				"mtxr.sqltools",
-				"mtxr.sqltools-driver-mysql",
-				"vscjava.vscode-java-pack"
+				"mtxr.sqltools-driver-mysql"
 			]
 		}
 	}
