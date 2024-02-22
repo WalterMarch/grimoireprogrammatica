@@ -7,7 +7,6 @@
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
 		"ghcr.io/devcontainers/features/github-cli:1": {},
-		"ghcr.io/devcontainers/features/python:1": {}, 
 		"ghcr.io/devcontainers/features/powershell:1": {}
 	},
 	// https://stackoverflow.com/a/67803226/21655737
@@ -33,9 +32,7 @@
 				"GitHub.copilot",
 				"DavidAnson.vscode-markdownlint",
 				"analytic-signal.preview-pdf",
-				"ms-vscode.PowerShell",
-				"mtxr.sqltools",
-				"mtxr.sqltools-driver-mysql"
+				"ms-vscode.PowerShell"
 			]
 		}
 	}
